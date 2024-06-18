@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">*</domain>
+        <!-- Add other domains as needed -->
+    </domain-config>
+    <!-- Allow cleartext traffic for all domains -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

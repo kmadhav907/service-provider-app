@@ -8,3 +8,11 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
+
+-keep class com.askmechanics.** { *; }
+-keep class okhttp3.** { *; }
+-keep class okio.** { *; }
+-keep class retrofit2.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-dontwarn retrofit2.**

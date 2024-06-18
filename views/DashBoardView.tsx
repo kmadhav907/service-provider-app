@@ -66,7 +66,7 @@ class DashBoardView extends React.Component<
             ToastAndroid.show(error.message, ToastAndroid.SHORT);
           },
           {
-            showLocationDialog: true,
+            // showLocationDialog: true,
             enableHighAccuracy: true,
           },
         );
